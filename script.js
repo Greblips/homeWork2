@@ -12,7 +12,7 @@ alert(a);
 // Создайте переменную и присвойте ей значение года выпуска первого iPhone. Выведите значение переменной на экран
 
 const firstIphone = 2007
-alert(`в ${firstIphone} выпущен первый Iphone`)
+alert(`в ${firstIphone} году выпущен первый Iphone`)
 
 // Задание 3
 // Создайте переменную и присвойте ей значение имени создателя языка JavaScript. Выведите значение переменной на экран.
@@ -43,8 +43,8 @@ alert(`Деление 10 на 2 равно ${number1/number2}`);
 
 const number3 = 2;
 const mathematicalDegree = 5;
-let result = 0;
-alert(`2 в степени 5 равно ${result = number3**mathematicalDegree}`)
+let result =  number3**mathematicalDegree;
+alert(`2 в степени 5 равно ${result}`)
 
 // Задание 6
 // Даны переменные: a = 9 и b = 2. Найдите остаток от деления a на b
@@ -74,8 +74,8 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num ++;
-num --;
+num++;
+num--;
 alert(num);
 
 // Задание 8
@@ -93,7 +93,6 @@ function text(age) {
         } else {
             count = count % 10;
             if (count == 1) {
-    
                 txt = 'год';
             } else if (count >= 2 && count <= 4) {
                 txt = 'года';
